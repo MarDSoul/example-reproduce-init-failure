@@ -11,5 +11,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ReproduceKoinBug"
+rootProject.name = "ReproduceInitFailture"
 include("app")
