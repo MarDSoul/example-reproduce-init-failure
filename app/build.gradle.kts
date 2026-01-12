@@ -16,6 +16,9 @@ kotlin {
         }
     }
 
-}
-dependencies {
+    sourceSets {
+        commonMain.dependencies {
+            implementation(libs.koin)
+        }
+    }
 }
